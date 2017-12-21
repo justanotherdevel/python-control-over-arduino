@@ -18,3 +18,4 @@ if __name__ == "__main__":
             if int(val) == i:
                 print(i)
                 beeping(note, delay_time)
+#code to make beep sound from laptop with some reading from serial port
