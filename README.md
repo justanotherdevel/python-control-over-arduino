@@ -1,12 +1,10 @@
 # python-control-over-arduino
-PHYTHON used in making piano from arduino
-here is the python script used used along arduino 
-which here is used to give output from the laptop speaker 
-python spript use serial library to detect the serial port of the arduino 
-and takes the input using arduino as the interface and the output is then given as the frequency from the laptop
+Capacitive touch piano using Arduino and Python.
+Python: Reads serial data using Serial Library from Arduino and plays the corresponding note using laptop speaker.
+Arduino: Detects data from capacitive touch unit which can then be read using serial library from the python script and the script can play beep sound corresponding to the correct frequency.
 
-
-sudo apt install python-pip             
-python -m pip install pyserial                
-sudo apt install beep                       
-sudo modprobe pcspkr              
+Steps to run on Ubuntu:
+	sudo apt install python-pip             
+	python -m pip install pyserial                
+	sudo apt install beep                       
+	sudo modprobe pcspkr              
